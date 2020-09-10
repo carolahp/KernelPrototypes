@@ -1,6 +1,7 @@
 # KernelPrototypes
 
-```prototypes := MPrototypes new name: #Prototypes; yourself.
+```
+prototypes := MPrototypes new name: #Prototypes; yourself.
 prototypes loadTonelRepository: './bootstrap/language-definitions-new-repo/PrototypesFull3'.
 
 prototypes loadCustomClasses.
@@ -15,4 +16,5 @@ prototypes builder installProcess.
 image := prototypes spurImage.
 image test.
 imageFile := prototypes writeImage.
-imageFile runBashScript```
+imageFile runBashScript
+```
